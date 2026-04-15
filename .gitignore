@@ -1,0 +1,19 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+# Data (keep structure, not raw files)
+data/raw/*
+!data/raw/.gitkeep
+
+# Results
+results/*
+!results/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
